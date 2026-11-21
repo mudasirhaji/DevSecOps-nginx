@@ -1,0 +1,1003 @@
+
+
+## Overview
+
+                   │                   Analyzed Image                   
+───────────────────┼────────────────────────────────────────────────────
+ Target            │  mywebapp:INSECURE                                 
+   digest          │  342e9f53b11c                                      
+   platform        │ linux/amd64                                        
+   provenance      │ https://github.com/mudasirhaji/DevSecOps-nginx.git 
+                   │  https://github.com/mudasirhaji/DevSecOps-nginx/blob/c5d9e70abd888975be2f0424083d791819143186          
+   vulnerabilities │    0C    17H    33M    87L     6?                  
+   size            │ 64 MB                                              
+   packages        │ 235                                                
+                   │                                                    
+ Base image        │  nginx:latest                                      
+                   │  5b9ebb95001c                                      
+
+
+## Packages and Vulnerabilities
+
+   0C     6H     5M     4L     6?  krb5 1.21.3-5+deb13u1
+pkg:deb/debian/krb5@1.21.3-5%2Bdeb13u1?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ HIGH CVE-2026-119079 — Debian
+      Advisory: CVE-2026-119079
+      https://scout.docker.com/v/CVE-2026-119079?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ HIGH CVE-2026-112323 — Debian
+      Advisory: CVE-2026-112323
+      https://scout.docker.com/v/CVE-2026-112323?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ HIGH CVE-2026-112322 — Debian
+      Advisory: CVE-2026-112322
+      https://scout.docker.com/v/CVE-2026-112322?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ HIGH CVE-2026-112321 — Debian
+      Advisory: CVE-2026-112321
+      https://scout.docker.com/v/CVE-2026-112321?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ HIGH CVE-2026-112320 — Debian
+      Advisory: CVE-2026-112320
+      https://scout.docker.com/v/CVE-2026-112320?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ HIGH CVE-2026-112314 — Debian
+      Advisory: CVE-2026-112314
+      https://scout.docker.com/v/CVE-2026-112314?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-112319 — Debian
+      Advisory: CVE-2026-112319
+      https://scout.docker.com/v/CVE-2026-112319?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-112318 — Debian
+      Advisory: CVE-2026-112318
+      https://scout.docker.com/v/CVE-2026-112318?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-112316 — Debian
+      Advisory: CVE-2026-112316
+      https://scout.docker.com/v/CVE-2026-112316?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-112317 — Debian
+      Advisory: CVE-2026-112317
+      https://scout.docker.com/v/CVE-2026-112317?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-112315 — Debian
+      Advisory: CVE-2026-112315
+      https://scout.docker.com/v/CVE-2026-112315?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-11850 — Debian
+      Advisory: CVE-2026-11850
+      https://scout.docker.com/v/CVE-2026-11850?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2024-26461 — Debian
+      Advisory: CVE-2024-26461
+      https://scout.docker.com/v/CVE-2024-26461?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2024-26458 — Debian
+      Advisory: CVE-2024-26458
+      https://scout.docker.com/v/CVE-2024-26458?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2018-5709 — Debian
+      Advisory: CVE-2018-5709
+      https://scout.docker.com/v/CVE-2018-5709?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ UNSPECIFIED CVE-2026-71200 — Debian
+      Advisory: CVE-2026-71200
+      https://scout.docker.com/v/CVE-2026-71200?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ UNSPECIFIED CVE-2026-71199 — Debian
+      Advisory: CVE-2026-71199
+      https://scout.docker.com/v/CVE-2026-71199?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ UNSPECIFIED CVE-2026-118380 — Debian
+      Advisory: CVE-2026-118380
+      https://scout.docker.com/v/CVE-2026-118380?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ UNSPECIFIED CVE-2026-111423 — Debian
+      Advisory: CVE-2026-111423
+      https://scout.docker.com/v/CVE-2026-111423?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ UNSPECIFIED CVE-2026-107884 — Debian
+      Advisory: CVE-2026-107884
+      https://scout.docker.com/v/CVE-2026-107884?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ UNSPECIFIED CVE-2026-107364 — Debian
+      Advisory: CVE-2026-107364
+      https://scout.docker.com/v/CVE-2026-107364?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     3H     1M     7L  openssl 3.5.7-1~deb13u3
+pkg:deb/debian/openssl@3.5.7-1~deb13u3?arch=amd64&os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ HIGH CVE-2026-107493 — Debian
+      Advisory: CVE-2026-107493
+      https://scout.docker.com/v/CVE-2026-107493?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ HIGH CVE-2026-84786 — Debian
+      Advisory: CVE-2026-84786
+      https://scout.docker.com/v/CVE-2026-84786?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ HIGH CVE-2026-107496 — Debian
+      Advisory: CVE-2026-107496
+      https://scout.docker.com/v/CVE-2026-107496?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-95690 — Debian
+      Advisory: CVE-2026-95690
+      https://scout.docker.com/v/CVE-2026-95690?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-95692 — Debian
+      Advisory: CVE-2026-95692
+      https://scout.docker.com/v/CVE-2026-95692?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-95691 — Debian
+      Advisory: CVE-2026-95691
+      https://scout.docker.com/v/CVE-2026-95691?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-88823 — Debian
+      Advisory: CVE-2026-88823
+      https://scout.docker.com/v/CVE-2026-88823?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-88822 — Debian
+      Advisory: CVE-2026-88822
+      https://scout.docker.com/v/CVE-2026-88822?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-35190 — Debian
+      Advisory: CVE-2026-35190
+      https://scout.docker.com/v/CVE-2026-35190?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-124709 — Debian
+      Advisory: CVE-2026-124709
+      https://scout.docker.com/v/CVE-2026-124709?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2010-0928 — Debian
+      Advisory: CVE-2010-0928
+      https://scout.docker.com/v/CVE-2010-0928?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E%3D3.2.1-3
+      Affected range : >=3.2.1-3 
+      Fixed version  : not fixed 
+    
+
+   0C     2H    12M    11L  glibc 2.41-12+deb13u4
+pkg:deb/debian/glibc@2.41-12%2Bdeb13u4?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ HIGH CVE-2026-19499 — Debian
+      Advisory: CVE-2026-19499
+      https://scout.docker.com/v/CVE-2026-19499?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ HIGH CVE-2026-5435 — Debian
+      Advisory: CVE-2026-5435
+      https://scout.docker.com/v/CVE-2026-5435?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-6791 — Debian
+      Advisory: CVE-2026-6791
+      https://scout.docker.com/v/CVE-2026-6791?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-6238 — Debian
+      Advisory: CVE-2026-6238
+      https://scout.docker.com/v/CVE-2026-6238?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-86805 — Debian
+      Advisory: CVE-2026-86805
+      https://scout.docker.com/v/CVE-2026-86805?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-80489 — Debian
+      Advisory: CVE-2026-80489
+      https://scout.docker.com/v/CVE-2026-80489?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-77117 — Debian
+      Advisory: CVE-2026-77117
+      https://scout.docker.com/v/CVE-2026-77117?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-124024 — Debian
+      Advisory: CVE-2026-124024
+      https://scout.docker.com/v/CVE-2026-124024?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-121758 — Debian
+      Advisory: CVE-2026-121758
+      https://scout.docker.com/v/CVE-2026-121758?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-121757 — Debian
+      Advisory: CVE-2026-121757
+      https://scout.docker.com/v/CVE-2026-121757?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-19542 — Debian
+      Advisory: CVE-2026-19542
+      https://scout.docker.com/v/CVE-2026-19542?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-8674 — Debian
+      Advisory: CVE-2026-8674
+      https://scout.docker.com/v/CVE-2026-8674?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-18374 — Debian
+      Advisory: CVE-2026-18374
+      https://scout.docker.com/v/CVE-2026-18374?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-89092 — Debian
+      Advisory: CVE-2026-89092
+      https://scout.docker.com/v/CVE-2026-89092?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-97399 — Debian
+      Advisory: CVE-2026-97399
+      https://scout.docker.com/v/CVE-2026-97399?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-126765 — Debian
+      Advisory: CVE-2026-126765
+      https://scout.docker.com/v/CVE-2026-126765?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-95818 — Debian
+      Advisory: CVE-2026-95818
+      https://scout.docker.com/v/CVE-2026-95818?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-6368 — Debian
+      Advisory: CVE-2026-6368
+      https://scout.docker.com/v/CVE-2026-6368?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2019-9192 — Debian
+      Advisory: CVE-2019-9192
+      https://scout.docker.com/v/CVE-2019-9192?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2019-1010025 — Debian
+      Advisory: CVE-2019-1010025
+      https://scout.docker.com/v/CVE-2019-1010025?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2019-1010024 — Debian
+      Advisory: CVE-2019-1010024
+      https://scout.docker.com/v/CVE-2019-1010024?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2019-1010023 — Debian
+      Advisory: CVE-2019-1010023
+      https://scout.docker.com/v/CVE-2019-1010023?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2019-1010022 — Debian
+      Advisory: CVE-2019-1010022
+      https://scout.docker.com/v/CVE-2019-1010022?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2018-20796 — Debian
+      Advisory: CVE-2018-20796
+      https://scout.docker.com/v/CVE-2018-20796?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2010-4756 — Debian
+      Advisory: CVE-2010-4756
+      https://scout.docker.com/v/CVE-2010-4756?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     2H     5M     5L  libxml2 2.12.7+dfsg+really2.9.14-2.1+deb13u3
+pkg:deb/debian/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-2.1%2Bdeb13u3?arch=amd64&os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ HIGH CVE-2026-74860 — Debian
+      Advisory: CVE-2026-74860
+      https://scout.docker.com/v/CVE-2026-74860?s=debian&n=libxml2&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ HIGH CVE-2026-86140 — Debian
+      Advisory: CVE-2026-86140
+      https://scout.docker.com/v/CVE-2026-86140?s=debian&n=libxml2&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-86143 — Debian
+      Advisory: CVE-2026-86143
+      https://scout.docker.com/v/CVE-2026-86143?s=debian&n=libxml2&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-86142 — Debian
+      Advisory: CVE-2026-86142
+      https://scout.docker.com/v/CVE-2026-86142?s=debian&n=libxml2&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-86138 — Debian
+      Advisory: CVE-2026-86138
+      https://scout.docker.com/v/CVE-2026-86138?s=debian&n=libxml2&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-86144 — Debian
+      Advisory: CVE-2026-86144
+      https://scout.docker.com/v/CVE-2026-86144?s=debian&n=libxml2&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-76781 — Debian
+      Advisory: CVE-2026-76781
+      https://scout.docker.com/v/CVE-2026-76781?s=debian&n=libxml2&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-86141 — Debian
+      Advisory: CVE-2026-86141
+      https://scout.docker.com/v/CVE-2026-86141?s=debian&n=libxml2&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-86139 — Debian
+      Advisory: CVE-2026-86139
+      https://scout.docker.com/v/CVE-2026-86139?s=debian&n=libxml2&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-86137 — Debian
+      Advisory: CVE-2026-86137
+      https://scout.docker.com/v/CVE-2026-86137?s=debian&n=libxml2&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-11979 — Debian
+      Advisory: CVE-2026-11979
+      https://scout.docker.com/v/CVE-2026-11979?s=debian&n=libxml2&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2025-12863 — Debian
+      Advisory: CVE-2025-12863
+      https://scout.docker.com/v/CVE-2025-12863?s=debian&n=libxml2&ns=debian&t=deb&osn=debian&osv=13&vr=%3E%3D2.12.7%2Bdfsg%2Breally2.9.14-2.1%2Bdeb13u2
+      Affected range : >=2.12.7+dfsg+really2.9.14-2.1+deb13u2 
+      Fixed version  : not fixed                              
+    
+
+   0C     2H     2M     0L  expat 2.9.0-1~deb13u1
+pkg:deb/debian/expat@2.9.0-1~deb13u1?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ HIGH CVE-2026-118370 — Debian
+      Advisory: CVE-2026-118370
+      https://scout.docker.com/v/CVE-2026-118370?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ HIGH CVE-2026-117610 — Debian
+      Advisory: CVE-2026-117610
+      https://scout.docker.com/v/CVE-2026-117610?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-124317 — Debian
+      Advisory: CVE-2026-124317
+      https://scout.docker.com/v/CVE-2026-124317?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-128241 — Debian
+      Advisory: CVE-2026-128241
+      https://scout.docker.com/v/CVE-2026-128241?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     2H     0M     1L  zlib 1:1.3.dfsg+really1.3.1-1
+pkg:deb/debian/zlib@1%3A1.3.dfsg%2Breally1.3.1-1?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ HIGH CVE-2026-85091 — Debian
+      Advisory: CVE-2026-85091
+      https://scout.docker.com/v/CVE-2026-85091?s=debian&n=zlib&ns=debian&t=deb&osn=debian&osv=13&vr=%3C1%3A1.3.dfsg%2Breally1.3.1-1%2Bdeb13u1
+      Affected range : <1:1.3.dfsg+really1.3.1-1+deb13u1 
+      Fixed version  : 1:1.3.dfsg+really1.3.1-1+deb13u1  
+    
+    ✗ HIGH CVE-2026-76844 — Debian
+      Advisory: CVE-2026-76844
+      https://scout.docker.com/v/CVE-2026-76844?s=debian&n=zlib&ns=debian&t=deb&osn=debian&osv=13&vr=%3C1%3A1.3.dfsg%2Breally1.3.1-1%2Bdeb13u1
+      Affected range : <1:1.3.dfsg+really1.3.1-1+deb13u1 
+      Fixed version  : 1:1.3.dfsg+really1.3.1-1+deb13u1  
+    
+    ✗ LOW CVE-2026-27171 — Debian
+      Advisory: CVE-2026-27171
+      https://scout.docker.com/v/CVE-2026-27171?s=debian&n=zlib&ns=debian&t=deb&osn=debian&osv=13&vr=%3C1%3A1.3.dfsg%2Breally1.3.1-1%2Bdeb13u1
+      Affected range : <1:1.3.dfsg+really1.3.1-1+deb13u1 
+      Fixed version  : 1:1.3.dfsg+really1.3.1-1+deb13u1  
+    
+
+   0C     0H     3M     7L  gnutls28 3.8.9-3+deb13u4
+pkg:deb/debian/gnutls28@3.8.9-3%2Bdeb13u4?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ MEDIUM CVE-2026-127231 — Debian
+      Advisory: CVE-2026-127231
+      https://scout.docker.com/v/CVE-2026-127231?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-127040 — Debian
+      Advisory: CVE-2026-127040
+      https://scout.docker.com/v/CVE-2026-127040?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2026-127039 — Debian
+      Advisory: CVE-2026-127039
+      https://scout.docker.com/v/CVE-2026-127039?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-95210 — Debian
+      Advisory: CVE-2026-95210
+      https://scout.docker.com/v/CVE-2026-95210?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-95209 — Debian
+      Advisory: CVE-2026-95209
+      https://scout.docker.com/v/CVE-2026-95209?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-95184 — Debian
+      Advisory: CVE-2026-95184
+      https://scout.docker.com/v/CVE-2026-95184?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-88648 — Debian
+      Advisory: CVE-2026-88648
+      https://scout.docker.com/v/CVE-2026-88648?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-88647 — Debian
+      Advisory: CVE-2026-88647
+      https://scout.docker.com/v/CVE-2026-88647?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-67693 — Debian
+      Advisory: CVE-2026-67693
+      https://scout.docker.com/v/CVE-2026-67693?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2011-3389 — Debian
+      Advisory: CVE-2011-3389
+      https://scout.docker.com/v/CVE-2011-3389?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     1M     1L  cyrus-sasl2 2.1.28+dfsg1-9
+pkg:deb/debian/cyrus-sasl2@2.1.28%2Bdfsg1-9?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ MEDIUM CVE-2026-132138 — Debian
+      Advisory: CVE-2026-132138
+      https://scout.docker.com/v/CVE-2026-132138?s=debian&n=cyrus-sasl2&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-129483 — Debian
+      Advisory: CVE-2026-129483
+      https://scout.docker.com/v/CVE-2026-129483?s=debian&n=cyrus-sasl2&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     1M     1L  tar 1.35+dfsg-3.1
+pkg:deb/debian/tar@1.35%2Bdfsg-3.1?arch=amd64&os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ MEDIUM CVE-2025-45582 — Debian
+      Advisory: CVE-2025-45582
+      https://scout.docker.com/v/CVE-2025-45582?s=debian&n=tar&ns=debian&t=deb&osn=debian&osv=13&vr=%3E%3D1.35%2Bdfsg-3.1
+      Affected range : >=1.35+dfsg-3.1 
+      Fixed version  : not fixed       
+    
+    ✗ LOW CVE-2005-2541 — Debian
+      Advisory: CVE-2005-2541
+      https://scout.docker.com/v/CVE-2005-2541?s=debian&n=tar&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     1M     0L  nghttp2 1.64.0-1.1+deb13u1
+pkg:deb/debian/nghttp2@1.64.0-1.1%2Bdeb13u1?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ MEDIUM CVE-2026-58055 — Debian
+      Advisory: CVE-2026-58055
+      https://scout.docker.com/v/CVE-2026-58055?s=debian&n=nghttp2&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     1M     0L  freetype 2.13.3+dfsg-1+deb13u1
+pkg:deb/debian/freetype@2.13.3%2Bdfsg-1%2Bdeb13u1?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ MEDIUM CVE-2026-95512 — Debian
+      Advisory: CVE-2026-95512
+      https://scout.docker.com/v/CVE-2026-95512?s=debian&n=freetype&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     1M     0L  gcc-14 14.2.0-19
+pkg:deb/debian/gcc-14@14.2.0-19?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ MEDIUM CVE-2026-125709 — Debian
+      Advisory: CVE-2026-125709
+      https://scout.docker.com/v/CVE-2026-125709?s=debian&n=gcc-14&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M    13L  tiff 4.7.0-3+deb13u3
+pkg:deb/debian/tiff@4.7.0-3%2Bdeb13u3?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2026-52492 — Debian
+      Advisory: CVE-2026-52492
+      https://scout.docker.com/v/CVE-2026-52492?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-52491 — Debian
+      Advisory: CVE-2026-52491
+      https://scout.docker.com/v/CVE-2026-52491?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2025-8534 — Debian
+      Advisory: CVE-2025-8534
+      https://scout.docker.com/v/CVE-2025-8534?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2025-8177 — Debian
+      Advisory: CVE-2025-8177
+      https://scout.docker.com/v/CVE-2025-8177?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2025-8176 — Debian
+      Advisory: CVE-2025-8176
+      https://scout.docker.com/v/CVE-2025-8176?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2025-61145 — Debian
+      Advisory: CVE-2025-61145
+      https://scout.docker.com/v/CVE-2025-61145?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2025-61144 — Debian
+      Advisory: CVE-2025-61144
+      https://scout.docker.com/v/CVE-2025-61144?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2025-61143 — Debian
+      Advisory: CVE-2025-61143
+      https://scout.docker.com/v/CVE-2025-61143?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2024-6716 — Debian
+      Advisory: CVE-2024-6716
+      https://scout.docker.com/v/CVE-2024-6716?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=13&vr=%3E%3D4.5.1%2Bgit230720-5
+      Affected range : >=4.5.1+git230720-5 
+      Fixed version  : not fixed           
+    
+    ✗ LOW CVE-2022-1210 — Debian
+      Advisory: CVE-2022-1210
+      https://scout.docker.com/v/CVE-2022-1210?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2018-10126 — Debian
+      Advisory: CVE-2018-10126
+      https://scout.docker.com/v/CVE-2018-10126?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2017-17973 — Debian
+      Advisory: CVE-2017-17973
+      https://scout.docker.com/v/CVE-2017-17973?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=13&vr=%3E%3D4.7.0-3
+      Affected range : >=4.7.0-3 
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2017-16232 — Debian
+      Advisory: CVE-2017-16232
+      https://scout.docker.com/v/CVE-2017-16232?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     7L  curl 8.14.1-2+deb13u7
+pkg:deb/debian/curl@8.14.1-2%2Bdeb13u7?arch=amd64&os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2026-9547 — Debian
+      Advisory: CVE-2026-9547
+      https://scout.docker.com/v/CVE-2026-9547?s=debian&n=curl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-87866 — Debian
+      Advisory: CVE-2026-87866
+      https://scout.docker.com/v/CVE-2026-87866?s=debian&n=curl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-82208 — Debian
+      Advisory: CVE-2026-82208
+      https://scout.docker.com/v/CVE-2026-82208?s=debian&n=curl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2025-15224 — Debian
+      Advisory: CVE-2025-15224
+      https://scout.docker.com/v/CVE-2025-15224?s=debian&n=curl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2025-15079 — Debian
+      Advisory: CVE-2025-15079
+      https://scout.docker.com/v/CVE-2025-15079?s=debian&n=curl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2025-14017 — Debian
+      Advisory: CVE-2025-14017
+      https://scout.docker.com/v/CVE-2025-14017?s=debian&n=curl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2025-10966 — Debian
+      Advisory: CVE-2025-10966
+      https://scout.docker.com/v/CVE-2025-10966?s=debian&n=curl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     5L  openldap 2.6.10+dfsg-1
+pkg:deb/debian/openldap@2.6.10%2Bdfsg-1?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2026-22185 — Debian
+      Advisory: CVE-2026-22185
+      https://scout.docker.com/v/CVE-2026-22185?s=debian&n=openldap&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2020-15719 — Debian
+      Advisory: CVE-2020-15719
+      https://scout.docker.com/v/CVE-2020-15719?s=debian&n=openldap&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2017-17740 — Debian
+      Advisory: CVE-2017-17740
+      https://scout.docker.com/v/CVE-2017-17740?s=debian&n=openldap&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2017-14159 — Debian
+      Advisory: CVE-2017-14159
+      https://scout.docker.com/v/CVE-2017-14159?s=debian&n=openldap&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2015-3276 — Debian
+      Advisory: CVE-2015-3276
+      https://scout.docker.com/v/CVE-2015-3276?s=debian&n=openldap&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     4L  systemd 257.13-1~deb13u1
+pkg:deb/debian/systemd@257.13-1~deb13u1?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2023-31439 — Debian
+      Advisory: CVE-2023-31439
+      https://scout.docker.com/v/CVE-2023-31439?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2023-31438 — Debian
+      Advisory: CVE-2023-31438
+      https://scout.docker.com/v/CVE-2023-31438?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2023-31437 — Debian
+      Advisory: CVE-2023-31437
+      https://scout.docker.com/v/CVE-2023-31437?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2013-4392 — Debian
+      Advisory: CVE-2013-4392
+      https://scout.docker.com/v/CVE-2013-4392?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     4L  coreutils 9.7-3
+pkg:deb/debian/coreutils@9.7-3?arch=amd64&os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2026-56392 — Debian
+      Advisory: CVE-2026-56392
+      https://scout.docker.com/v/CVE-2026-56392?s=debian&n=coreutils&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-56391 — Debian
+      Advisory: CVE-2026-56391
+      https://scout.docker.com/v/CVE-2026-56391?s=debian&n=coreutils&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2025-5278 — Debian
+      Advisory: CVE-2025-5278
+      https://scout.docker.com/v/CVE-2025-5278?s=debian&n=coreutils&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2017-18018 — Debian
+      Advisory: CVE-2017-18018
+      https://scout.docker.com/v/CVE-2017-18018?s=debian&n=coreutils&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     2L  sqlite3 3.46.1-7+deb13u2
+pkg:deb/debian/sqlite3@3.46.1-7%2Bdeb13u2?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2025-70873 — Debian
+      Advisory: CVE-2025-70873
+      https://scout.docker.com/v/CVE-2025-70873?s=debian&n=sqlite3&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2021-45346 — Debian
+      Advisory: CVE-2021-45346
+      https://scout.docker.com/v/CVE-2021-45346?s=debian&n=sqlite3&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     2L  libgcrypt20 1.11.0-7+deb13u1
+pkg:deb/debian/libgcrypt20@1.11.0-7%2Bdeb13u1?arch=amd64&os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2024-2236 — Debian
+      Advisory: CVE-2024-2236
+      https://scout.docker.com/v/CVE-2024-2236?s=debian&n=libgcrypt20&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2018-6829 — Debian
+      Advisory: CVE-2018-6829
+      https://scout.docker.com/v/CVE-2018-6829?s=debian&n=libgcrypt20&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     2L  dash 0.5.12-12
+pkg:deb/debian/dash@0.5.12-12?arch=amd64&os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2026-102474 — Debian
+      Advisory: CVE-2026-102474
+      https://scout.docker.com/v/CVE-2026-102474?s=debian&n=dash&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2026-102473 — Debian
+      Advisory: CVE-2026-102473
+      https://scout.docker.com/v/CVE-2026-102473?s=debian&n=dash&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     2L  libpng1.6 1.6.48-1+deb13u6
+pkg:deb/debian/libpng1.6@1.6.48-1%2Bdeb13u6?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2026-3713 — Debian
+      Advisory: CVE-2026-3713
+      https://scout.docker.com/v/CVE-2026-3713?s=debian&n=libpng1.6&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2021-4214 — Debian
+      Advisory: CVE-2021-4214
+      https://scout.docker.com/v/CVE-2021-4214?s=debian&n=libpng1.6&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     2L  nginx 1.31.9-1~trixie
+pkg:deb/debian/nginx@1.31.9-1~trixie?arch=amd64&os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2013-0337 — Debian
+      Advisory: CVE-2013-0337
+      https://scout.docker.com/v/CVE-2013-0337?s=debian&n=nginx&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2009-4487 — Debian
+      Advisory: CVE-2009-4487
+      https://scout.docker.com/v/CVE-2009-4487?s=debian&n=nginx&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     1L  perl 5.40.1-6+deb13u1
+pkg:deb/debian/perl@5.40.1-6%2Bdeb13u1?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2011-4116 — Debian
+      Advisory: CVE-2011-4116
+      https://scout.docker.com/v/CVE-2011-4116?s=debian&n=perl&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     1L  jbigkit 2.1-6.1
+pkg:deb/debian/jbigkit@2.1-6.1?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2017-9937 — Debian
+      Advisory: CVE-2017-9937
+      https://scout.docker.com/v/CVE-2017-9937?s=debian&n=jbigkit&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     1L  shadow 1:4.17.4-2
+pkg:deb/debian/shadow@1%3A4.17.4-2?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2007-5686 — Debian
+      Advisory: CVE-2007-5686
+      https://scout.docker.com/v/CVE-2007-5686?s=debian&n=shadow&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     1L  libxslt 1.1.35-1.2+deb13u3
+pkg:deb/debian/libxslt@1.1.35-1.2%2Bdeb13u3?os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2015-9019 — Debian
+      Advisory: CVE-2015-9019
+      https://scout.docker.com/v/CVE-2015-9019?s=debian&n=libxslt&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     1L  util-linux 2.41.5-0+deb13u1
+pkg:deb/debian/util-linux@2.41.5-0%2Bdeb13u1?arch=amd64&os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2022-0563 — Debian
+      Advisory: CVE-2022-0563
+      https://scout.docker.com/v/CVE-2022-0563?s=debian&n=util-linux&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     1L  diffutils 1:3.10-4
+pkg:deb/debian/diffutils@1%3A3.10-4?arch=amd64&os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2026-53910 — Debian
+      Advisory: CVE-2026-53910
+      https://scout.docker.com/v/CVE-2026-53910?s=debian&n=diffutils&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     1L  apt 3.0.4
+pkg:deb/debian/apt@3.0.4?arch=amd64&os_distro=trixie&os_name=debian&os_version=13
+
+    ✗ LOW CVE-2011-3374 — Debian
+      Advisory: CVE-2011-3374
+      https://scout.docker.com/v/CVE-2011-3374?s=debian&n=apt&ns=debian&t=deb&osn=debian&osv=13&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
+
+143 vulnerabilities found in 29 packages
+  CRITICAL     0  
+  HIGH         17 
+  MEDIUM       33 
+  LOW          87 
+  UNSPECIFIED  6  
+
